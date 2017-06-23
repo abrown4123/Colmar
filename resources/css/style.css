@@ -1,0 +1,236 @@
+html {
+  font-family: Quicksand, Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7F7C7B;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.desktop,
+footer {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop ul,
+footer ul {
+  display: flex;
+}
+
+.desktop ul li,
+footer ul li {
+  padding: 16px;
+}
+
+#navButtons a,
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.companyname{
+  display: flex;
+  align-items: center;
+}
+
+.companyname img {
+  height: 3rem;
+  padding-left: 24px;
+}
+
+#readingPic{
+  margin: 32px 24px;
+  width: 60%;
+  height: 600px;
+}
+
+.maincontent {
+  width: 100%;
+}
+#midTop{
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+
+#slogan{
+  margin-left: 40px;
+}
+
+#midTop h1 {
+  font-size: 3rem;
+  color: #7F7C7B;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#midTop p{
+  font-size: 1.5rem;
+  color: #7f7c7b;
+}
+
+#midTop a{
+  width:16rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 8px 0;
+  background-color: #7f7c7b;
+  display: block;
+}
+
+#first  {
+  color: black;
+}
+.mobile{
+  display: none;
+}
+/*@media only screen and (max-width: 960px;){
+  .mobile {display: none;}
+}*/
+nav .main {
+  color: lightgray;
+}
+
+.midsection {
+  display: flex;
+  /*height: 600px;*/
+  margin-top: 32px;
+  margin-left: 24px;
+  width: 100%;
+  }
+/*.midmain {width: 60%;
+}*/
+/*.midmain img {padding-right: 24px;
+
+}*/
+.midmain h2 {font-size: 3rem;
+             margin-top: 32px;
+             margin-bottom: 24px;
+}
+.midmain img {width: 60%;
+}
+.midmain p {line-height: 2rem;
+            font-size: 1.5rem;
+
+}
+.midmain {
+  width: 100%;
+  padding-right: 24px;
+}
+.midside {width: 423px;
+}
+#testimony {margin-top: 2rem;
+            font-size: 1rem;
+
+}
+.courses {margin: 0 auto;
+          align-self: center;
+          background-color: lightgray;
+          text-align: center;
+}
+.courses h3,
+.thesis h3 {
+             font-size: 3rem;
+             font-weight: bold;
+             margin-top: 32px;
+             margin-bottom: 32px;
+}
+.coursecontainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;}
+
+#software,
+#computer,
+#design,
+#data,
+#business,
+#marketing  {
+width: 280px;
+height: 300px;
+margin-bottom: 32px;
+/*margin-left: 16px;*/
+background-color: white;
+text-align: left;
+}
+.coursecontainer h4 {
+font-size: 1.5rem;
+font-weight: bold;
+margin-top: 16px;
+margin-left: 16px;
+}
+#softwarePic,
+#computerPic,
+#designPic,
+#dataPic,
+#businessPic,
+#marketingPic  {
+height: 125px;
+width: 280px;
+}
+#design img {
+
+}
+p.title {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 16px;
+}
+p {
+padding-bottom: 24px;
+padding-left: 16px;
+}
+.thesis {
+  margin: 0 auto;
+  align-self: center;
+  /*text-align: center;*/
+}
+.thesis h3 {text-align: center;
+
+}
+.visualcontainer {display: flex;
+}
+}
+.mainvideo{
+/*padding-bottom: 25%;*/
+height: 0;
+width: 65%;
+margin: 0 auto;
+}
+.mainvideo video {
+/*top: 0;
+left: 0;*/
+width: 100%;
+height: 100;
+}
+.thesissidebar {
+display: flex;
+flex-direction: column;
+width: 423px;
+margin-left: 16px;
+}
+#fisma,
+#research {display: block;
+}
+#fisma img,
+#research img {
+height: 136px;
+}
+.thesissidebar img {
+height: 160px;
+}
+footer {
+  margin-top: 32px;
+  margin-left: 24px;
+}
