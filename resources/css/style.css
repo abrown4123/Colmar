@@ -12,7 +12,9 @@ html {
 }
 
 .desktop,
-footer {
+footer,
+.mobile
+{
   width: 100%;
   height: 64px;
   display: flex;
@@ -20,20 +22,27 @@ footer {
   align-items: center;
 }
 
-.desktop ul,
-footer ul {
+/*.desktop ul,
+footer ul,
+{
   display: flex;
-}
+}*/
 
 .desktop ul li,
-footer ul li {
+footer ul li,
+{
   padding: 16px;
 }
-
+#navButtons,
+/*.mobile ul,*/
+footer ul {display: flex;
+           justify-content: space-around;
+}
 #navButtons a,
 footer a {
   text-decoration: none;
   color: grey;
+  padding: 16px;
 }
 
 .companyname{
@@ -54,6 +63,7 @@ footer a {
 
 .maincontent {
   width: 100%;
+  height: auto;
 }
 #midTop{
   display: flex;
@@ -61,8 +71,9 @@ footer a {
   background-color: lightgray;
 }
 
-#slogan{
-  margin-left: 40px;
+#slogan,
+/*.sidewords {*/
+  {margin-left: 40px;
 }
 
 #midTop h1 {
@@ -91,12 +102,16 @@ footer a {
 #first  {
   color: black;
 }
-.mobile{
+
+/*.mobile{
   display: none;
-}
-/*@media only screen and (max-width: 960px;){
-  .mobile {display: none;}
 }*/
+@media only screen and (max-width: 959px){
+  #navButtons{display: none;}
+}
+@media only screen and (min-width: 960px){
+  .mobile {display: none;}
+}
 nav .main {
   color: lightgray;
 }
@@ -117,7 +132,7 @@ nav .main {
              margin-top: 32px;
              margin-bottom: 24px;
 }
-.midmain img {width: 60%;
+.midmain img {width: 90%;
 }
 .midmain p {line-height: 2rem;
             font-size: 1.5rem;
@@ -127,7 +142,13 @@ nav .main {
   width: 100%;
   padding-right: 24px;
 }
+.sidewords {display: flex;
+            height: 150px;
+}
 .midside {width: 423px;
+          display: block;
+}
+.midside img {width: 50%;
 }
 #testimony {margin-top: 2rem;
             font-size: 1rem;
@@ -142,14 +163,16 @@ nav .main {
 .thesis h3 {
              font-size: 3rem;
              font-weight: bold;
-             margin-top: 32px;
+             padding-top: 32px;
              margin-bottom: 32px;
 }
 .coursecontainer {
   width: 95%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+  margin-left: 24px;
+}
 
 #software,
 #computer,
@@ -164,7 +187,8 @@ margin-bottom: 32px;
 background-color: white;
 text-align: left;
 }
-.coursecontainer h4 {
+.coursecontainer h4,
+.thesis h4 {
 font-size: 1.5rem;
 font-weight: bold;
 margin-top: 16px;
@@ -187,12 +211,13 @@ padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 16px;
 }
-p {
+.coursecontainer p {
 padding-bottom: 24px;
 padding-left: 16px;
 }
-.thesis {
-  margin: 0 auto;
+.thesis,
+.courses {
+  margin: 0 24px;
   align-self: center;
   /*text-align: center;*/
 }
@@ -213,6 +238,10 @@ margin: 0 auto;
 left: 0;*/
 width: 100%;
 height: 100;
+}
+.mainvideo h2 {font-size: 1.5rem;
+}
+.mainvideo p {padding-top: 16px;
 }
 .thesissidebar {
 display: flex;
