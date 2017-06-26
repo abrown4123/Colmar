@@ -118,47 +118,89 @@ nav .main {
 
 .midsection {
   display: flex;
-  /*height: 600px;*/
   margin-top: 32px;
   margin-left: 24px;
   width: 100%;
-  }
-/*.midmain {width: 60%;
-}*/
-/*.midmain img {padding-right: 24px;
+  height: 800px;
+}
 
-}*/
-.midmain h2 {font-size: 3rem;
-             margin-top: 32px;
-             margin-bottom: 24px;
-}
-.midmain img {width: 90%;
-}
-.midmain p {line-height: 2rem;
-            font-size: 1.5rem;
-
-}
 .midmain {
-  width: 100%;
+  width: 60%;
   padding-right: 24px;
 }
-.sidewords {display: flex;
-            height: 150px;
+
+.midmain h2 {
+    font-size: 2rem;
+    margin-top: 32px;
+    margin-bottom: 24px;
 }
-.midside {width: 423px;
-          display: block;
+
+.midmain img {
+    width: 100%;
 }
-.midside img {width: 50%;
-}
-#testimony {margin-top: 2rem;
-            font-size: 1rem;
+
+.midmain p {
+    line-height: 2rem;
+    font-size: 1.5rem;
 
 }
-.courses {margin: 0 auto;
-          align-self: center;
-          background-color: lightgray;
-          text-align: center;
+.sideWords {
+    display: flex;
+    height: 17%;
+    margin: 16px 0;
 }
+
+.sideWords:first-child {
+    margin-top: 0;
+}
+
+hr {
+    width: 70%;
+}
+
+.midside {
+    width: 423px;
+}
+.midside img {
+    width: 35%;
+    display: flex;
+}
+
+.sideText{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 16px;
+}
+
+.sideText h3 {
+    color: black;
+}
+
+.sideText p {
+    font-size: .9rem;
+}
+
+.sideText a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.sideText a:hover{
+    text-decoration: underline;
+}
+
+#testimony {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.courses {
+    align-self: center;
+    background-color: lightgray;
+    text-align: center;
+}
+
 .courses h3,
 .thesis h3 {
              font-size: 3rem;
@@ -166,27 +208,21 @@ nav .main {
              padding-top: 32px;
              margin-bottom: 32px;
 }
-.coursecontainer {
-  width: 95%;
+#coursecontainer {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 24px;
 }
 
-#software,
-#computer,
-#design,
-#data,
-#business,
-#marketing  {
-width: 280px;
-height: 300px;
+.class  {
+width: 30%;
 margin-bottom: 32px;
 /*margin-left: 16px;*/
 background-color: white;
 text-align: left;
 }
+
 .coursecontainer h4,
 .thesis h4 {
 font-size: 1.5rem;
@@ -194,18 +230,17 @@ font-weight: bold;
 margin-top: 16px;
 margin-left: 16px;
 }
+
 #softwarePic,
 #computerPic,
 #designPic,
 #dataPic,
 #businessPic,
 #marketingPic  {
-height: 125px;
-width: 280px;
+height: auto;
+width: 100%;
 }
-#design img {
 
-}
 p.title {
 padding-top: 8px;
 padding-bottom: 8px;
@@ -215,12 +250,7 @@ padding-left: 16px;
 padding-bottom: 24px;
 padding-left: 16px;
 }
-.thesis,
-.courses {
-  margin: 0 24px;
-  align-self: center;
-  /*text-align: center;*/
-}
+
 .thesis h3 {text-align: center;
 
 }
@@ -229,7 +259,7 @@ padding-left: 16px;
 }
 .mainvideo{
 /*padding-bottom: 25%;*/
-height: 0;
+height: auto;
 width: 65%;
 margin: 0 auto;
 }
